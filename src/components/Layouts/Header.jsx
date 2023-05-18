@@ -27,7 +27,6 @@ const handleDrawer=()=>{
 <Typography color={'gold'} variant='h6' component='div' sx={{flexGrow:1,my:2}}  >
 <FastfoodIcon/>
   MyRestau
-   
 </Typography>
 <Divider/>
 
@@ -98,8 +97,8 @@ const handleDrawer=()=>{
 
 <Box component='nav'>
 <Drawer variant='temporary' open={mobileOpen} onClose={handleDrawer}
-sx={{display:{xs:'block',sm:'none'},"& .MuiDrawer-paper":{boxSizing:"border-box",width:"240px"}}}
->
+
+sx={{display:{xs:'block',sm:'none'},"& .MuiDrawer-paper":{boxSizing:"border-box",width:"240px"}}}>
     {drawer}
 </Drawer>
 
@@ -107,8 +106,6 @@ sx={{display:{xs:'block',sm:'none'},"& .MuiDrawer-paper":{boxSizing:"border-box"
 <Box >
 <Toolbar/>
 </Box>
-
-
 
     </Box>
     

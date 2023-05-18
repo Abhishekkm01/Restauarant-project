@@ -3,6 +3,9 @@ import './App.css';
 import Layout from './components/Layouts/Layout';
 
 
+
+
+
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './pages/Home';
 import About from './pages/About';
@@ -20,7 +23,6 @@ function App() {
 <Route path='menu' element={<Menu/>}/>
 <Route path='contact' element={<Contact/>}/>
 <Route path="*" element={<PageNotFound/>}/>
-
 
 </Routes>
 
